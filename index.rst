@@ -1,4 +1,4 @@
-.. title:: Introduction to Nutanix AHV
+.. title:: lab in shcolo
 
 .. toctree::
   :maxdepth: 2

@@ -1,3 +1,5 @@
+.. title:: kubernetes
+
 .. _kubernetes:
 
 ------------------
