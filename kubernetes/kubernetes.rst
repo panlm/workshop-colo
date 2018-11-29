@@ -9,7 +9,7 @@ LAB1: Create Kubernetes Cluster
 Overview
 ++++++++
 
-create kubernetes cluster, 3 cotroller node and 3 work node
+create kubernetes cluster, 3 cotroller node and 3 work node ( about 5 mins )
 
 Create Kubernetes Cluster
 +++++++++++++++++++++++++
@@ -22,7 +22,7 @@ Create Kubernetes Cluster
 
     password: **nutanix/4u**
 
-- Navigate to Calm UI, and open blueprint **COLO_Kubernetes_cluster_BP** in marketplace
+- Navigate to Calm UI, and find blueprint **COLO_Kubernetes_cluster_BP** in blueprint page
 
   .. figure:: images/1.png
 
@@ -34,7 +34,7 @@ Create Kubernetes Cluster
 
   .. figure:: images/3.png
 
-- open application you launched and check it, until success
+- open application you launched and check it after success
 
   - status is **running**
 

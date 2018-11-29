@@ -8,6 +8,7 @@
 
   kubernetes/kubernetes
   persistentstorage/persistentstorage
+  lamp/lamp
 
 .. toctree::
   :maxdepth: 2
@@ -29,6 +30,7 @@ you could access SH-COLO with horizon view client.
 What's New
 ++++++++++
 
+- Added the lab :ref:`lamp`
 - Added the lab :ref:`persistentstorage`
 - Added the first lab :ref:`kubernetes`
 
