@@ -79,7 +79,7 @@ Access Kubernetes Dashboard
     .. figure:: images/10.png
 
 
-Scale out work node
+Scale Out Work Node
 +++++++++++++++++++
 
 - navigate to **application** page, in **manage** tab, click **ScaleOut** when you want to add more work node to your cluster. in this case we add 4 more node to cluster.
@@ -94,10 +94,6 @@ Scale out work node
     .. figure:: images/13.png
 
 - you could do scale in as you wish
-
-
-
-
 
 
 
