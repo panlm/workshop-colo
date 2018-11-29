@@ -98,3 +98,11 @@ Scale Out Work Node
 
 
 
+Others
+++++++
+
+if you got any BP issue, please download :download:`HERE <./COLO_kubernetes_cluster_BP.json>`
+or contact Leiming.pan@nutanix.com
+
+
+
