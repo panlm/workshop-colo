@@ -44,7 +44,7 @@ Create LAMP
 
 - open **service** tab of this launch
 
-    - haproxy, it is an entry for this application, record it's **ip address**
+    - haproxy, it is an entry for this application, record it's **ip address**, we will use it later.
 
         .. figure:: images/5.png
 
@@ -56,11 +56,11 @@ Create LAMP
 Access haproxy stat page
 ++++++++++++++++++++++++
 
-- open browser, and access ``http://<hapryxo_ip_address>:8080/stats``
+- open browser, and access ``http://<hapryxo_ip_address>:8080/stats``, put the haproxy ip address here.
 
     .. figure:: images/7.png
 
-    - you could find the http ip address in the buttom of the page 
+    - you could find the apache ip addresses in the buttom of the page 
 
 
 Scale Out apache node 
