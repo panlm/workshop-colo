@@ -16,7 +16,7 @@ Create Kubernetes Cluster
 
 - Open Prism Central
 
-  open https://10.132.69.55:9440
+  open https://10.132.128.39:9440
 
     username: **nutanix**
 
@@ -106,5 +106,6 @@ Others
 if you got any BP issue, please download :download:`HERE <./COLO_kubernetes_cluster_BP.json>`
 or contact Leiming.pan@nutanix.com
 
+This BP just for PC-5.10 or over.
 
 
