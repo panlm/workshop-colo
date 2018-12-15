@@ -16,7 +16,7 @@ Create Kubernetes Cluster
 
 - Open Prism Central
 
-  open https://10.132.128.39:9440
+  open https://10.132.129.39:9440
 
     username: **nutanix**
 
