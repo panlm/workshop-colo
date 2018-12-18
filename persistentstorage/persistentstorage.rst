@@ -110,11 +110,3 @@ Create Pod to use PVC
         .. figure:: images/p10.png
 
 
-
-Others
-++++++
-
-contact Leiming.pan@nutanix.com
-
-
-

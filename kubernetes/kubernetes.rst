@@ -103,9 +103,10 @@ Scale Out Work Node
 Others
 ++++++
 
-if you got any BP issue, please download :download:`HERE <./COLO_kubernetes_cluster_BP.json>`
-or contact Leiming.pan@nutanix.com
+- if you got any BP issue, please download :download:`HERE <./COLO_kubernetes_cluster_BP.json>`
+    - This BP just for PC-5.10 or over.
 
-This BP just for PC-5.10 or over.
-
-
+- if you re-upload blueprint, you need do following:
+    - change image for each service. (using **panlm-img-xx**)
+    - change network interface for each service (using **Primary**)
+    - change credentials for this blueprint

@@ -9,7 +9,7 @@ LAB3: Create LAMP Application
 Overview
 ++++++++
 
-create LAMP application, including 1 haproxy, 2 php-apache and 1 mysql. (about 8 mins)
+Create LAMP application, including 1 haproxy, 2 php-apache and 1 mysql. (about 8 mins)
 
 Create LAMP
 +++++++++++
@@ -86,8 +86,10 @@ Scale Out apache node
 Others
 ++++++
 
-if you got any BP issue, please download :download:`HERE <./COLO_lamp_BP.json>`
-or contact Leiming.pan@nutanix.com
-
+- if you got any BP issue, please download :download:`HERE <./COLO_lamp_BP.json>`
+- if you re-upload blueprint, you need do following:
+    - change image for each service. (using **Centos7-update**)
+    - change network interface for each service (using **Primary**)
+    - change credentials for this blueprint
 
 
