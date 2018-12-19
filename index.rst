@@ -49,4 +49,42 @@ https://218.97.5.227
 .. figure:: login.png
     :width: 50 %
 
+Preparation before partner workshop
++++++++++++++++++++++++++++++++++++
+
+- define your default password
+
+  .. code-block:: powershell
+
+    $Password = Read-Host -AsSecureString
+
+- create 10 users and put in nutanix group
+
+  .. code-block:: powershell
+
+    for ($i=1; $i -le 10; $i++) {
+      New-ADUser -SamAccountName remote$i -AccountPassword $Password -name "Remote User $i" -enabled $true -PasswordNeverExpires $false -ChangePasswordAtLogon $true
+      Add-ADPrincipalGroupMembership -Identity "CN=Remote User $i,CN=Users,DC=nutanix,DC=sh" -MemberOf "CN=nutanix,CN=Users,DC=nutanix,DC=sh"
+    }
+
+- delete users after workshop
+
+  .. code-block:: powershell
+
+    for ($i=1; $i -le 10; $i++) {
+      Remove-ADUser remote$i -Confirm:$false
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
