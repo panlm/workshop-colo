@@ -6,9 +6,11 @@
   :name: _labs
   :hidden:
 
+  calm/ssp
   kubernetes/kubernetes
-  persistentstorage/persistentstorage
-  lamp/lamp
+  kubernetes/podinbp
+  kubernetes/persistentstorage
+  blueprint/lamp
 
 .. toctree::
   :maxdepth: 2
@@ -30,6 +32,8 @@ you could access SH-COLO with horizon view client.
 What's New
 ++++++++++
 
+- Added the lab :ref:`podinbp`
+- Added the lab :ref:`ssp`
 - Added the lab :ref:`lamp`
 - Added the lab :ref:`persistentstorage`
 - Added the first lab :ref:`kubernetes`
@@ -40,7 +44,7 @@ Access Instructions in SH-COLO
 Horizon View
 ............
 
-https://218.97.5.227 
+https://218.97.5.227
 
 .. figure:: login.png
     :width: 50 %

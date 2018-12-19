@@ -2,9 +2,9 @@
 
 .. _lamp:
 
------------------------------
-LAB3: Create LAMP Application
------------------------------
+----------------------------
+LAB: Create LAMP Application
+----------------------------
 
 Overview
 ++++++++
@@ -24,15 +24,15 @@ Create LAMP
 
 - Navigate to Calm UI, and find blueprint **COLO_lamp_BP** in blueprint page
 
-     .. figure:: images/1.png
+     .. figure:: images/lam1.png
 
 - open this blueprint and launch it from up-right corner 
 
-    .. figure:: images/2.png
+    .. figure:: images/lam2.png
 
 - give a name to this launch, such as **COLO_launch_lamp**
 
-      .. figure:: images/3.png
+      .. figure:: images/lam3.png
 
 - open application you launched and check it after success
 
@@ -40,17 +40,17 @@ Create LAMP
 
      - total vm is **4**
 
-    .. figure:: images/4.png
+    .. figure:: images/lam4.png
 
 - open **service** tab of this launch
 
     - haproxy, it is an entry for this application, record it's **ip address**, we will use it later.
 
-        .. figure:: images/5.png
+        .. figure:: images/lam5.png
 
     - apache, it is endpoint beind haproxy, we will find their ip address in haproxy statistics page
 
-        .. figure:: images/6.png
+        .. figure:: images/lam6.png
 
 
 Access haproxy stat page
@@ -58,7 +58,7 @@ Access haproxy stat page
 
 - open browser, and access ``http://<hapryxo_ip_address>:8080/stats``, put the haproxy ip address here.
 
-    .. figure:: images/7.png
+    .. figure:: images/lam7.png
 
     - you could find the apache ip addresses in the buttom of the page 
 
@@ -68,16 +68,16 @@ Scale Out apache node
 
 - navigate to **application** page, in **manage** tab, click **ScaleOut** when you want to add more apache nodes.
 
-    .. figure:: images/10.png
+    .. figure:: images/lam10.png
 
-    .. figure:: images/11.png
+    .. figure:: images/lam11.png
         :width: 50 %
 
 - refresh statistics page, and we find number of http server change to 3
 
-    .. figure:: images/12.png
+    .. figure:: images/lam12.png
 
-    .. figure:: images/13.png
+    .. figure:: images/lam13.png
 
 - you could do scale in as you wish
 

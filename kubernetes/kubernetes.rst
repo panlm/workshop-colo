@@ -2,9 +2,9 @@
 
 .. _kubernetes:
 
-------------------
-LAB1: Create Kubernetes Cluster 
-------------------
+------------------------------
+LAB: Create Kubernetes Cluster
+------------------------------
 
 Overview
 ++++++++
@@ -24,15 +24,15 @@ Create Kubernetes Cluster
 
 - Navigate to Calm UI, and find blueprint **COLO_Kubernetes_cluster_BP** in blueprint page
 
-  .. figure:: images/1.png
+  .. figure:: images/kub1.png
 
-- open this blueprint and launch it from up-right corner 
+- open this blueprint and launch it from up-right corner
 
-  .. figure:: images/2.png
+  .. figure:: images/kub2.png
 
 - give a name to this launch, such as **COLO-launch**
 
-  .. figure:: images/3.png
+  .. figure:: images/kub3.png
 
 - open application you launched and check it after success
 
@@ -40,7 +40,7 @@ Create Kubernetes Cluster
 
   - total vm is **6**
 
-  .. figure:: images/4.png
+  .. figure:: images/kub4.png
 
 - open **service** tab of this launch
 
@@ -50,7 +50,7 @@ Create Kubernetes Cluster
 
     - all controller node ip listed blow
 
-    .. figure:: images/6.png
+    .. figure:: images/kub6.png
 
   - k8sm - work node
 
@@ -58,15 +58,15 @@ Create Kubernetes Cluster
 
     - all work node ip listed blow
 
-    .. figure:: images/5.png
+    .. figure:: images/kub5.png
 
-- find the first controller node and **open terminal** 
+- find the first controller node and **open terminal**
 
-    .. figure:: images/7.png
+    .. figure:: images/kub7.png
 
 - run command to verify, ``kubectl get node -o wide -n kube-system``
 
-    .. figure:: images/8.png
+    .. figure:: images/kub8.png
 
 
 Access Kubernetes Dashboard
@@ -74,11 +74,11 @@ Access Kubernetes Dashboard
 
 - open browser, and access ``https://<any_ip_address_in_your_cluster>:30443/``, it is the default **dashboard** of kubernetes. Click **Skip** to skip certifications (using **firefox** if your chrome has some issue)
 
-    .. figure:: images/9.png
+    .. figure:: images/kub9.png
 
 - now you could create your first container application  :)
 
-    .. figure:: images/10.png
+    .. figure:: images/kub10.png
 
 
 Scale Out Work Node
@@ -86,14 +86,14 @@ Scale Out Work Node
 
 - navigate to **application** page, in **manage** tab, click **ScaleOut** when you want to add more work node to your cluster. in this case we add 4 more node to cluster.
 
-    .. figure:: images/11.png
+    .. figure:: images/kub11.png
 
-    .. figure:: images/12.png
+    .. figure:: images/kub12.png
         :width: 50 %
 
 - you will find totally 7 work nodes in this cluster
 
-    .. figure:: images/13.png
+    .. figure:: images/kub13.png
 
 - you could do scale in as you wish
 
