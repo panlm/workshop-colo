@@ -28,7 +28,7 @@ Create Peresistent Volume Claims
 
 - create a new PVC with following code
 
-    .. code-block:: yml
+    .. code-block:: yaml
 
         apiVersion: v1
         kind: PersistentVolumeClaim
