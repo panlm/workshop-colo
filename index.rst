@@ -6,10 +6,9 @@
   :name: _labs
   :hidden:
 
-  calm/ssp
   kubernetes/kubernetes
-  kubernetes/podinbp
   kubernetes/persistentstorage
+  kubernetes/podinbp
   blueprint/lamp
 
 .. toctree::
@@ -33,7 +32,6 @@ What's New
 ++++++++++
 
 - Added the lab :ref:`podinbp`
-- Added the lab :ref:`ssp`
 - Added the lab :ref:`lamp`
 - Added the lab :ref:`persistentstorage`
 - Added the first lab :ref:`kubernetes`
