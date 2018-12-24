@@ -9,7 +9,7 @@ LAB: Create Your Own SSH Key
 Overview
 ++++++++
 
-Create your own ssh keys. (about 8 mins)
+Create your own ssh keys. (about 5 mins)
 
 Windows
 +++++++
