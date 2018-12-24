@@ -7,6 +7,7 @@
   :hidden:
 
   calm/sshkey
+  kubernetes/importk8s
   kubernetes/kubernetes
   kubernetes/persistentstorage
   kubernetes/podinbp
@@ -32,6 +33,7 @@ you could access SH-COLO with horizon view client.
 What's New
 ++++++++++
 
+- Added the lab :ref:`importk8s`
 - Added the lab :ref:`sshkey`
 - Added the lab :ref:`podinbp`
 - Added the lab :ref:`lamp`
