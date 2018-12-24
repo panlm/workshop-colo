@@ -27,7 +27,7 @@ Add Kubernetes as Provider
 
     .. figure:: images/pod1.png
 
-    - type: Kubernetes
+    - Type: Kubernetes
     - Server IP: controller0 ip
     - Port: 6443
     - Auth Type: Client Certificate
@@ -61,6 +61,7 @@ Create Blueprint for POD
         - Namespace: default
         - Replicas: 2
         - SELECTOR: app:myapp
+
 
         .. figure:: images/pod6.png
             :width: 50 %
