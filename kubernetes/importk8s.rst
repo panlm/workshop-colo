@@ -18,6 +18,11 @@ Import Blueprint
 
 - Please download :download:`HERE <./COLO_kubernetes_cluster_BP.json>`
 
+- Use **firefox** to open open Prism Central URL
+    - open https://10.132.129.39:9440
+    - username: **nutanix**
+    - password: **nutanix/4u**
+
 - Upload blueprint
 
     .. figure:: images/imp1.png
@@ -30,21 +35,45 @@ Import Blueprint
 Customize Blueprint
 +++++++++++++++++++
 
-- change credentials for this blueprint
-    - using your private key
+- Using your private key as credentials for this blueprint
 
     .. figure:: images/imp3.png
 
-- change public key
+- Using your public key
 
     .. figure:: images/imp4.png
 
-- change image for each service. (using **panlm-img-xx**)
+- Ensure cluster information is correct
 
     .. figure:: images/imp5.png
 
-- change network interface for each service (using **Secondary**)
+    .. list-table::
+        :widths: 30 40
+        :header-rows: 1 
+
+        *   - Name
+            - Value
+        *   - PE_CLUSTER_IP
+            - ``10.132.129.37``
+        *   - PE_DATA_SERVICE_IP
+            - ``10.132.129.38``
+        *   - PE_USERNAME
+            - ``nutanix``
+        *   - PE_PASSWORD
+            - ``nutanix/4u``
+        *   - PE_CONTAINER_NAME
+            - ``SelfServiceContainer``
+
+- Change image for each service. (using **panlm-img-xx**)
 
     .. figure:: images/imp6.png
+
+- Change network interface for each service (using **Secondary**)
+
+    .. figure:: images/imp7.png
+
+- Don't forget to save your blueprint
+
+
 
 

@@ -14,13 +14,10 @@ create kubernetes cluster, 3 cotroller node and 3 work node ( about 5 mins )
 Create Kubernetes Cluster
 +++++++++++++++++++++++++
 
-- Open Prism Central
-
-  open https://10.132.129.39:9440
-
-    username: **nutanix**
-
-    password: **nutanix/4u**
+- Use **firefox** to open open Prism Central URL
+    - open https://10.132.129.39:9440
+    - username: **nutanix**
+    - password: **nutanix/4u**
 
 - Navigate to Calm UI, and find blueprint **COLO_Kubernetes_cluster_BP** in blueprint page
 
@@ -60,11 +57,11 @@ Create Kubernetes Cluster
 
     .. figure:: images/kub5.png
 
-- find the first controller node and **open terminal**
+- Find the first controller node **K8SC-0-XXX** and **open terminal**
 
     .. figure:: images/kub7.png
 
-- run command to verify, ``kubectl get node -o wide -n kube-system``
+- Run command to verify, ``kubectl get pod -o wide -n kube-system``
 
     .. figure:: images/kub8.png
 
@@ -72,7 +69,8 @@ Create Kubernetes Cluster
 Access Kubernetes Dashboard
 +++++++++++++++++++++++++++
 
-- open browser, and access ``https://<any_ip_address_in_your_cluster>:30443/``, it is the default **dashboard** of kubernetes. Click **Skip** to skip certifications (using **firefox** if your chrome has some issue)
+- open **firefox**, and access ``https://<any_ip_address_in_your_cluster>:30443/``, it is the default **dashboard** of kubernetes. 
+Click **Skip** to skip certifications (if you use **chrome**, maybe will get some issues.)
 
     .. figure:: images/kub9.png
 
