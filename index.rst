@@ -35,14 +35,14 @@ Labs we have
 ++++++++++++
 
 - Calm
-  - :ref:`sshkey`
+    - :ref:`sshkey`
 - Kubernetes
-  - :ref:`importk8s`
-  - :ref:`kubernetes`
-  - :ref:`persistentstorage`
-  - :ref:`podinbp`
+    - :ref:`importk8s`
+    - :ref:`kubernetes`
+    - :ref:`persistentstorage`
+    - :ref:`podinbp`
 - Others blueprints
-  - :ref:`lamp`
+    - :ref:`lamp`
 
 
 Access Instructions in SH-COLO
@@ -62,12 +62,12 @@ Preparation before partner workshop
 
 - create users and put in partner group
 
-  .. code-block:: powershell
+    .. code-block:: powershell
 
-    for ($i=1; $i -le 15; $i++) {
-      New-ADUser -SamAccountName remote$i -AccountPassword (ConvertTo-SecureString -AsPlainText "1qaz@WSX" -Force) -name "Remote User $i" -enabled $true -PasswordNeverExpires $false -ChangePasswordAtLogon $false
-      Add-ADPrincipalGroupMembership -Identity "CN=Remote User $i,CN=Users,DC=nutanix,DC=sh" -MemberOf "CN=partner,CN=Users,DC=nutanix,DC=sh"
-    }
+        for ($i=1; $i -le 15; $i++) {
+          New-ADUser -SamAccountName remote$i -AccountPassword (ConvertTo-SecureString -AsPlainText "1qaz@WSX" -Force) -name "Remote User $i" -enabled $true -PasswordNeverExpires $false -ChangePasswordAtLogon $false
+          Add-ADPrincipalGroupMembership -Identity "CN=Remote User $i,CN=Users,DC=nutanix,DC=sh" -MemberOf "CN=partner,CN=Users,DC=nutanix,DC=sh"
+        }
 
 - delete users after workshop
 

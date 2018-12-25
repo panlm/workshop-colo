@@ -15,43 +15,46 @@ Windows
 +++++++
 
 - Open share folder ``\\10.132.71.50\share``
+
 - Copy ``tools\putty_64bit`` to you local directory
+
 - Run ``PUTTYGEN``
+
     .. figure:: images/key1.png
-        :width: 80 %
+        :width: 70 %
 
 - Click ``Generate`` and keep moving your mouse
     .. figure:: images/key2.png
-        :width: 80 %
+        :width: 70 %
 
 - After create completed, here is your public key. Please copy paste to your file
     .. figure:: images/key3.png
-        :width: 80 %
+        :width: 70 %
 
 - Export your private key (Openssh format)
     .. figure:: images/key4.png
-        :width: 80 %
+        :width: 70 %
 
     .. figure:: images/key5.png
-        :width: 80 %
+        :width: 70 %
 
     .. figure:: images/key6.png
-        :width: 80 %
+        :width: 70 %
 
 - Save private in putty format ``priv.ppk``, will be used in putty
     .. figure:: images/key7.png
-        :width: 80 %
+        :width: 70 %
 
     .. figure:: images/key8.png
-        :width: 80 %
+        :width: 70 %
 
 - Open putty, load the private you saved in last step
     .. figure:: images/key9.png
-        :width: 80 %
+        :width: 70 %
 
 - Save change to default
     .. figure:: images/key10.png
-        :width: 80 %
+        :width: 70 %
 
 
 
@@ -70,7 +73,7 @@ Linux
         ssh-keygen -t rsa
 
     .. figure:: images/key11.png
-        :width: 80 %
+        :width: 70 %
 
 - Your public key is ``cat ~/.ssh/id_rsa.pub``
 - Your private key is ``cat ~/.ssh/id_rsa``
