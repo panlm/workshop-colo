@@ -1,4 +1,4 @@
-.. title:: kubernetes
+.. title:: LAB: Create Kubernetes Clusterß
 
 .. _kubernetes:
 

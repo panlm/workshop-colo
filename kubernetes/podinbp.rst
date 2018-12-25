@@ -1,4 +1,4 @@
-.. title:: podinbp
+.. title:: LAB: Manage Pod in Blueprint
 
 .. _podinbp:
 

@@ -1,4 +1,4 @@
-.. title:: sshkey
+.. title:: LAB: Create Your Own SSH Key
 
 .. _sshkey:
 
@@ -14,41 +14,53 @@ Create your own ssh keys. (about 5 mins)
 Windows
 +++++++
 
-- open share folder ``\\10.132.71.50\share``
-- copy ``tools\putty_64bit`` to you local directory
-- run ``PUTTYGEN``
+- Open share folder ``\\10.132.71.50\share``
+- Copy ``tools\putty_64bit`` to you local directory
+- Run ``PUTTYGEN``
     .. figure:: images/key1.png
+        :width: 80 %
 
 - Click ``Generate`` and keep moving your mouse
     .. figure:: images/key2.png
+        :width: 80 %
 
 - After create completed, here is your public key. Please copy paste to your file
     .. figure:: images/key3.png
+        :width: 80 %
 
 - export your private key
     .. figure:: images/key4.png
+        :width: 80 %
 
     .. figure:: images/key5.png
+        :width: 50 %
 
     .. figure:: images/key6.png
+        :width: 50 %
 
 - save private in putty format ``priv.ppk``, will be used in putty
     .. figure:: images/key7.png
+        :width: 80 %
 
     .. figure:: images/key8.png
+        :width: 50 %
 
 - open putty, load the private you saved in last step
     .. figure:: images/key9.png
+        :width: 80 %
 
 - save change to default
     .. figure:: images/key10.png
+        :width: 80 %
+
+
 
 Linux
 +++++
 
 - check you already have ``id_rsa`` key or not
     .. code-block:: bash
-    
+
         cd ~/.ssh
 
 - backup your existed rsa key
@@ -58,6 +70,7 @@ Linux
         ssh-keygen -t rsa
 
     .. figure:: images/key11.png
+        :width: 80 %
 
 - your public key is ``cat ~/.ssh/id_rsa.pub``
 - your private key is ``cat ~/.ssh/id_rsa``
@@ -72,7 +85,7 @@ How to use ssh keys
 How to use ssh key in Calm
 ++++++++++++++++++++++++++
 
-- create user with key certification
+- create user and put your private key
     .. figure:: images/key12.png
 
 - set public key variable
@@ -91,5 +104,8 @@ How to use ssh key in Calm
         - name: centos
           ssh-authorized-keys:
             - @@{INSTANCE_PUBLIC_KEY}@@
-          sudo -E: ['ALL=(ALL) NOPASSWD:ALL']
+          sudo: ['ALL=(ALL) NOPASSWD:ALL']
+
+
+
 

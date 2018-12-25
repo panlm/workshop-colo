@@ -1,4 +1,4 @@
-.. title:: importk8s
+.. title:: LAB: Import Kubernetes Blueprint
 
 .. _importk8s:
 

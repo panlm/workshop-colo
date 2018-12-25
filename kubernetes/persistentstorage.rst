@@ -1,4 +1,4 @@
-.. title:: persistentstorage
+.. title:: LAB: Persistent Storage on Nutanix
 
 .. _persistentstorage:
 
