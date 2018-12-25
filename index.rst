@@ -7,6 +7,7 @@
   :hidden:
 
   calm/sshkey
+  calm/project
   kubernetes/importk8s
   kubernetes/kubernetes
   kubernetes/persistentstorage
@@ -36,6 +37,7 @@ Labs we have
 
 - Calm
     - :ref:`sshkey`
+    - :ref:`project`
 - Kubernetes
     - :ref:`importk8s`
     - :ref:`kubernetes`

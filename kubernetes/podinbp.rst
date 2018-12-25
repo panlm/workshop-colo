@@ -39,25 +39,10 @@ Add Kubernetes as Provider
     - Client Key: ``cat ~/CA/admin-key.pem``
     - Click **Save** and **Verify**
 
-- Click **Projects** icon, and create a new project for yourself
+- Click **Projects** icon, and click your project, and add kubernetes cluster you just added.
 
     .. figure:: images/pod2.png
 
-    - Project Name: **your project name**
-    - Users, Groups and Roles: add user to your project
-
-        .. list-table::
-            :widths: 30 40
-            :header-rows: 1 
-
-            *   - Username
-                - Role
-            *   - SSP Admins
-                - Project Admin
-
-    - Infrastructure: **Local and Cloud resources**
-    - AHV Cluster: **AHV-2**
-    - Network: **Secondary**
     - Kubernetes: **your kubernetes cluster**
     - Save all your settings
 
