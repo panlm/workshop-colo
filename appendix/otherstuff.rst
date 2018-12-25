@@ -9,3 +9,12 @@ Information
 
 contact Leiming.pan@nutanix.com
 
+
+How to prepare lab environment in SH-COLO
++++++++++++++++++++++++++++++++++++++++++
+
+- rebuild environment
+    - https://github.com/panlm/stageworkshop
+
+- rebuild environment
+  - https://github.com/panlm/stageworkshop

@@ -9,7 +9,7 @@ LAB: Create Kubernetes Cluster
 Overview
 ++++++++
 
-create kubernetes cluster, 3 cotroller node and 3 work node ( about 5 mins )
+Create kubernetes cluster, 3 cotroller node and 3 work node ( about 5 mins )
 
 Create Kubernetes Cluster
 +++++++++++++++++++++++++
@@ -69,14 +69,14 @@ Create Kubernetes Cluster
 Access Kubernetes Dashboard
 +++++++++++++++++++++++++++
 
-- open **firefox**, and access ``https://<any_ip_address_in_your_cluster>:30443/``, it is the default **dashboard** of kubernetes. 
+Open **firefox**, and access ``https://<any_ip_address_in_your_cluster>:30443/``, it is the default **dashboard** of kubernetes. 
 Click **Skip** to skip certifications (if you use **chrome**, maybe will get some issues.)
 
-    .. figure:: images/kub9.png
+.. figure:: images/kub9.png
 
-- now you could create your first container application  :)
+Now you could create your first container application  :)
 
-    .. figure:: images/kub10.png
+.. figure:: images/kub10.png
 
 
 Scale Out Work Node

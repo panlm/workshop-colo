@@ -28,17 +28,22 @@
 Getting Start
 ---------------
 
-you could access SH-COLO with horizon view client.
+You could access SH-COLO with horizon view client.
 
-What's New
-++++++++++
 
-- Added the lab :ref:`importk8s`
-- Added the lab :ref:`sshkey`
-- Added the lab :ref:`podinbp`
-- Added the lab :ref:`lamp`
-- Added the lab :ref:`persistentstorage`
-- Added the first lab :ref:`kubernetes`
+Labs we have
+++++++++++++
+
+- Calm
+  - :ref:`sshkey`
+- Kubernetes
+  - :ref:`importk8s`
+  - :ref:`kubernetes`
+  - :ref:`persistentstorage`
+  - :ref:`podinbp`
+- Others blueprints
+  - :ref:`lamp`
+
 
 Access Instructions in SH-COLO
 ++++++++++++++++++++++++++++++
@@ -50,6 +55,7 @@ https://218.97.5.227
 
 .. figure:: login.png
     :width: 50 %
+
 
 Preparation before partner workshop
 +++++++++++++++++++++++++++++++++++
