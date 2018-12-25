@@ -14,25 +14,37 @@ Import kubernetes cluster for yourself. (about 10 mins)
 Import Blueprint
 ++++++++++++++++
 
-- ensure your PC version over 5.10
-- please download :download:`HERE <./COLO_kubernetes_cluster_BP.json>`
+- Ensure your PC version over 5.10
+
+- Please download :download:`HERE <./COLO_kubernetes_cluster_BP.json>`
+
 - Upload blueprint
+
     .. figure:: images/imp1.png
 
     .. figure:: images/imp2.png
         :width: 50 %
 
+
+
 Customize Blueprint
 +++++++++++++++++++
 
 - change credentials for this blueprint
-    using your private key
+    - using your private key
+
+    .. figure:: images/imp3.png
+
 - change public key
+
+    .. figure:: images/imp4.png
+
 - change image for each service. (using **panlm-img-xx**)
+
+    .. figure:: images/imp5.png
+
 - change network interface for each service (using **Secondary**)
 
-Launch Blueprint
-++++++++++++++++
+    .. figure:: images/imp6.png
 
-- refer lab :ref:`kubernetes`
 

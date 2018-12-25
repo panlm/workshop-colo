@@ -28,28 +28,28 @@ Windows
     .. figure:: images/key3.png
         :width: 80 %
 
-- export your private key
+- Export your private key (Openssh format)
     .. figure:: images/key4.png
         :width: 80 %
 
     .. figure:: images/key5.png
-        :width: 50 %
+        :width: 80 %
 
     .. figure:: images/key6.png
-        :width: 50 %
+        :width: 80 %
 
-- save private in putty format ``priv.ppk``, will be used in putty
+- Save private in putty format ``priv.ppk``, will be used in putty
     .. figure:: images/key7.png
         :width: 80 %
 
     .. figure:: images/key8.png
-        :width: 50 %
+        :width: 80 %
 
-- open putty, load the private you saved in last step
+- Open putty, load the private you saved in last step
     .. figure:: images/key9.png
         :width: 80 %
 
-- save change to default
+- Save change to default
     .. figure:: images/key10.png
         :width: 80 %
 
@@ -58,13 +58,13 @@ Windows
 Linux
 +++++
 
-- check you already have ``id_rsa`` key or not
+- Check you already have ``id_rsa`` key or not
     .. code-block:: bash
 
         cd ~/.ssh
 
-- backup your existed rsa key
-- create your rsa key
+- Backup your existed rsa key
+- Create your rsa key
     .. code-block:: bash
 
         ssh-keygen -t rsa
@@ -72,26 +72,29 @@ Linux
     .. figure:: images/key11.png
         :width: 80 %
 
-- your public key is ``cat ~/.ssh/id_rsa.pub``
-- your private key is ``cat ~/.ssh/id_rsa``
+- Your public key is ``cat ~/.ssh/id_rsa.pub``
+- Your private key is ``cat ~/.ssh/id_rsa``
+
 
 
 How to use ssh keys
 +++++++++++++++++++
 
-- put your public key string in destination host, in specified **user**'s home direcotry ``~/.ssh/authorized_keys``
-- now you could login as that **user** without password prompt 
+- Put your public key string in destination host, in specified **user**'s home direcotry ``~/.ssh/authorized_keys``
+- Now you could login as that **user** without password prompt 
+
+
 
 How to use ssh key in Calm
 ++++++++++++++++++++++++++
 
-- create user and put your private key
+- Create user and put your private key
     .. figure:: images/key12.png
 
-- set public key variable
+- Set public key variable
     .. figure:: images/key13.png
 
-- ingest public key when create VM with ``cloud-init`` service
+- Ingest public key when create VM with ``cloud-init`` service
     .. figure:: images/key14.png
 
     .. code-block:: config
