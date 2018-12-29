@@ -1,4 +1,4 @@
-.. title:: lamp
+.. title:: LAB: Create LAMP Application
 
 .. _lamp:
 
@@ -18,13 +18,13 @@ Create LAMP
 
     - open https://10.132.129.39:9440
 
-        username: **nutanix**
+        - username: **nutanix**
 
-        password: **nutanix/4u**
+        - password: **nutanix/4u**
 
 - Navigate to Calm UI, and find blueprint **COLO_lamp_BP** in blueprint page
 
-     .. figure:: images/lam1.png
+    .. figure:: images/lam1.png
 
 - open this blueprint and launch it from up-right corner 
 
@@ -32,13 +32,13 @@ Create LAMP
 
 - give a name to this launch, such as **COLO_launch_lamp**
 
-      .. figure:: images/lam3.png
+    .. figure:: images/lam3.png
 
 - open application you launched and check it after success
 
-     - status is **running**
+    - status is **running**
 
-     - total vm is **4**
+    - total vm is **4**
 
     .. figure:: images/lam4.png
 
@@ -88,6 +88,7 @@ Others
 
 - if you got any BP issue, please download :download:`HERE <./COLO_lamp_BP.json>`
 - if you re-upload blueprint, you need do following:
+
     - change image for each service. (using **Centos7-update**)
     - change network interface for each service (using **Primary**)
     - change credentials for this blueprint

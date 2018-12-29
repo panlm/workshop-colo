@@ -16,6 +16,7 @@ Create
 ++++++
 
 - Use **firefox** to open open Prism Central URL
+
     - open https://10.132.129.39:9440
     - username: **nutanix**
     - password: **nutanix/4u**
@@ -42,14 +43,16 @@ Create
             *   - SSP Admins
                 - Project Admin
 
-    - Network: **Secondary**
+    - Network: **Primary**
     - **Save**
 
 - Open **Calm** page from **Services** menu
+
 - Navigate to **Projects** and find the project you just added
+
     - Infrastructure: **Local and Cloud resources**
     - AHV Cluster: **AHV-2**
-    - Network: **Secondary**
+    - Network: **Primary**
     - Kubernetes: **your kubernetes cluster**
     - Save all your settings
 

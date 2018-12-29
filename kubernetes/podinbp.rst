@@ -15,11 +15,13 @@ Add Kubernetes as Provider
 ++++++++++++++++++++++++++
 
 - Use **firefox** to open open Prism Central URL
+
     - Open https://10.132.129.39:9440
     - Username: **nutanix**
     - Password: **nutanix/4u**
 
 - Get credential from your current kubernetes cluster
+
     - Using putty to connect the first controller (**K8SC-0-XXX**)
     - We will use the private key saved in putty to login
     - Use username **centos**

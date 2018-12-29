@@ -33,7 +33,7 @@ Create Peresistent Volume Claims
         apiVersion: v1
         kind: PersistentVolumeClaim
         metadata:
-          name: ntnx-pvc-demo
+          name: ntnx-pvc-demo-xxx
         spec:
           storageClassName: silver
           resources:
@@ -46,7 +46,7 @@ Create Peresistent Volume Claims
 
     - the PVC size is **8GiB**
 
-    - the name of PVC is **ntnx-pvc-demo**, will be used in container
+    - Please remember to ``change`` the name of PVC, like **ntnx-pvc-demo-123**, the name will be used in container
 
         .. figure:: images/per3.png
 
@@ -89,13 +89,13 @@ Create Pod to use PVC
           volumes:
           - name: abs
             persistentVolumeClaim:
-              claimName: ntnx-pvc-demo
+              claimName: ntnx-pvc-demo-xxx
 
 - navigate to **Pods** page, and create a new pod
 
     - pod name is **myapp-pod**
 
-    - pod will use pvc named **ntnx-pvc-demo**
+    - pod will use pvc named by your self before, like **ntnx-pvc-demo-123**
 
     .. figure:: images/per7.png
 

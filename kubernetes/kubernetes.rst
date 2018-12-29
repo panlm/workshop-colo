@@ -15,6 +15,7 @@ Create Kubernetes Cluster
 +++++++++++++++++++++++++
 
 - Use **firefox** to open open Prism Central URL
+
     - open https://10.132.129.39:9440
     - username: **nutanix**
     - password: **nutanix/4u**

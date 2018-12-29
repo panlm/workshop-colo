@@ -55,7 +55,20 @@ Here are the sample key will be used in our labs:
 
         ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCwFmKZf1DvrUfh3e4f3mRDp6oKwjG5U2enzDY+P0NDfhZE+PEQZjbehGKC7eubE4IRK6WOK0GUJMRAqpix9aL0V/LNlcW0kR/l7IzppID1zuKO9S/lCWsKi9JNkE99kPU2UcvQES7joosqcQNfo7ZZzWKt0JV83EeGXwpyKkRKHGWKLWXxc/8eud88dvzlPifp7wPnkDb6SiUNWMQ1KfzM6/FjRrsRFppK7Zrcm7EfwE+4xqN032eL3/D6qtZuzpJTPJYkNM06h9mCH6ZM8fPkV79wawb6+zUSle5yzGqVHqPaf4ewG2GDwYbUpBPB/Rd5Aig6xGjdvB+Qw6oRYdex centos@controller0
 
-You could create your key as following chapter
+
+Load sample key in putty
+------------------------
+
+- save the private key (before) in text
+- open ``PUTTYGEN``
+- Click menu ``Conversions`` --> ``Import key``, choose the private key you just saved
+- You will find public key in UI 
+- If you need ppk file (putty format), click ``Save private key`` button
+
+
+
+Or you could create your key as following
++++++++++++++++++++++++++++++++++++++++++
 
 Create key in putty
 -------------------
@@ -94,24 +107,6 @@ Create key in putty
     .. figure:: images/key8.png
         :width: 70 %
 
-- Open putty, load the private you saved in last step
-    .. figure:: images/key9.png
-        :width: 70 %
-
-- Save change to default
-    .. figure:: images/key10.png
-        :width: 70 %
-
-
-Load key in putty
------------------
-
-- save the private key (before) in text
-- open ``PUTTYGEN``
-- Click menu ``Conversions`` --> ``Import key``, choose the private key you just saved
-- You will find public key in UI 
-- If you need ppk file (putty format), click ``Save private key`` button
-
 
 Create key in Linux
 -------------------
@@ -136,6 +131,18 @@ Create key in Linux
 
 How to use ssh keys
 +++++++++++++++++++
+
+In Putty
+--------
+
+- Open putty, load the private you saved in last step
+    .. figure:: images/key9.png
+        :width: 70 %
+
+- Save change to default
+    .. figure:: images/key10.png
+        :width: 70 %
+
 
 In Linux
 --------
