@@ -42,8 +42,12 @@ Create Openshift Cluster
     
         ./minishift start --vm-driver generic --remote-ipaddress 10.132.129.193 --remote-ssh-user root --remote-ssh-key ~/.ssh/id_rsa
     
-    - using ``generic`` driver to create a cluster which you could access from local network
-    - using ssh key you just create to connect
+    - vm-driver: using ``generic`` driver to create a cluster which you could access from local network
+    - remote-ssh-user: **root**
+    - remote-ssh-key: the ssh key you just created
+    - remote-ipaddress: your minishift ip address
+
+- login openshift UI, such as http://10.132.129.193:8443/
 
 
 Role settings in Openshift
@@ -88,5 +92,5 @@ Deploy Pods in Openshift
 
 - create blueprint and just like :ref:`podinbp`
 
-
+- remeber to using ``bitnami/nginx:latest`` instead of ``nginx``
 
