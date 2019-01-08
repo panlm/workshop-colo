@@ -12,6 +12,7 @@
   kubernetes/kubernetes
   kubernetes/persistentstorage
   kubernetes/podinbp
+  kubernetes/openshift
   blueprint/lamp
 
 .. toctree::
@@ -43,6 +44,7 @@ Labs we have
     - :ref:`kubernetes`
     - :ref:`persistentstorage`
     - :ref:`podinbp`
+    - :ref:`openshift`
 - Others blueprints
     - :ref:`lamp`
 
