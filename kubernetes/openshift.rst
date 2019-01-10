@@ -29,7 +29,7 @@ Prepare VM
 
 
 Prepare Openshift Cluster
-++++++++++++++++++++++++
++++++++++++++++++++++++++
 
 - get localhost ip address
 
@@ -72,7 +72,7 @@ Prepare Openshift Cluster
             To login as administrator:
                 oc login -u system:admin
 
-- login openshift Web UI, such as http://<your_ip_address>:8443/
+- login openshift Web UI, such as ``http://<your_ip_address>:8443/``
 
 - login openshift CLI, if you got ``TLS handshake timeout`` error, please ``unset`` proxy environment variables
 

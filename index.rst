@@ -1,8 +1,8 @@
-.. title:: lab in shcolo
+.. title:: labs in shcolo
 
 .. toctree::
   :maxdepth: 2
-  :caption: Labs
+  :caption: Released Labs
   :name: _labs
   :hidden:
 
@@ -12,8 +12,15 @@
   kubernetes/kubernetes
   kubernetes/persistentstorage
   kubernetes/podinbp
-  kubernetes/openshift
   blueprint/lamp
+
+.. toctree::
+  :maxdepth: 2
+  :caption: Working Labs
+  :name: _workinglabs
+  :hidden:
+
+  kubernetes/openshift
 
 .. toctree::
   :maxdepth: 2
