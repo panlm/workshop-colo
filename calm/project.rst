@@ -17,42 +17,42 @@ Create
 
 - Use **firefox** to open open Prism Central URL
 
-    - open https://10.132.129.39:9440
-    - username: **nutanix**
-    - password: **nutanix/4u**
+  - open https://10.132.129.39:9440
+  - username: **nutanix**
+  - password: **nutanix/4u**
 
 - Open **Projects** page from **Administration** menu
 
 - Click **Create Project**
 
-    .. figure:: images/proj1.png
+  .. figure:: images/proj1.png
 
-    .. figure:: images/proj2.png
+  .. figure:: images/proj2.png
 
-    - Project Name: **your project name**
-    - Description: **your project desc**
-    - Cluster: **AHV-2**
-    - Users, Groups and Roles: 
+  - Project Name: **your project name**
+  - Description: **your project desc**
+  - Cluster: **AHV-2**
+  - Users, Groups and Roles: 
 
-        .. list-table::
-            :widths: 30 40
-            :header-rows: 1 
+    .. list-table::
+      :widths: 30 40
+      :header-rows: 1 
 
-            *   - Username
-                - Role
-            *   - SSP Admins
-                - Project Admin
+      * - Username
+        - Role
+      * - SSP Admins
+        - Project Admin
 
-    - Network: **Primary**
-    - **Save**
+  - Network: **Primary**
+  - **Save**
 
 - Open **Calm** page from **Services** menu
 
 - Navigate to **Projects** and find the project you just added
 
-    - Infrastructure: **Local and Cloud resources**
-    - AHV Cluster: **AHV-2**
-    - Network: **Primary**
-    - Kubernetes: **your kubernetes cluster**
-    - Save all your settings
+  - Infrastructure: **Local and Cloud resources**
+  - AHV Cluster: **AHV-2**
+  - Network: **Primary**
+  - (option)Kubernetes: **your kubernetes cluster**
+  - Save all your settings
 
