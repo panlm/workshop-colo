@@ -190,3 +190,7 @@ html_static_path = ['_static']
 
 # Output file base name for HTML help builder.
 #htmlhelp_basename = 'NutanixLabsdoc'
+
+PC_IP = '10.132.129.39'
+rst_epilog = '.. |PC_IP| replace:: %s' % PC_IP
+
