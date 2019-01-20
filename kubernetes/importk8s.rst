@@ -15,7 +15,7 @@ Import kubernetes cluster for yourself. (about 10 mins)
 
     if you have good internet connection and no Great Fire Wall issue, 
     please skip this chapter and use the default kubernetes blueprint in *market place* to create your own kubernetes cluster.
-    And reference :ref:`sshkey` chapter to find how to use your own ssh key.
+    And reference chapter :ref:`incalm` in :ref:`sshkey` chapter to find how to use your own ssh key in calm.
 
 
 Import Blueprint
