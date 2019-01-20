@@ -60,7 +60,7 @@ Prepare Openshift Cluster
 
     - if you get this information, means you create minishift cluster successfully.
 
-        .. parsed-literal::
+        .. code-block:: log
         
             The server is accessible via web console at:
                 https://10.132.129.228:8443
