@@ -159,6 +159,8 @@ In Linux
 - Now you could login as that **user** without password prompt 
 
 
+.. _incalm:
+
 In Calm
 -------
 
